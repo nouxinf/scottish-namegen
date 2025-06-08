@@ -1,0 +1,15 @@
+Street
+Road
+Avenue
+Grove
+Loan
+Lane
+Terrace
+Gardens
+Brae
+Drive
+Wynd
+Park
+Green
+Crescent
+Place

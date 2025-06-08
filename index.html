@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9f7e3a368e.js" crossorigin="anonymous"></script>
+	<title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="topRightMenu">
+		<button id="darkModeToggleBtn" class="icon-btn" title="Toggle Dark Mode"><i class="fas fa-moon"></i></button>
+		<button class="icon-btn">
+			<a href="https://github.com/nouxinf/scottish-namegen" target="_blank" class="icon-btn" title="View the source code">
+				<i class="fab fa-github"></i>
+			</a>
+		</button>
+	</div>
+    <h1>Scottish name generator</h1>
+    <label>
+        Street name?
+        <input type="checkbox" id="streetname">
+    </label>
+    <button id="genbtn">Generate!</button>
+    <div>
+        <ul id="results">
+
+        </ul>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
